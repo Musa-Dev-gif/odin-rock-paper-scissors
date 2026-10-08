@@ -1,12 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Rock Paper Scissors</title>
+<title>MusaDev - RPS</title>
+<style>
+body{font-family:Arial;text-align:center;background:#111;color:white;padding:50px}
+button{font-size:20px;padding:15px 30px;margin:10px;border-radius:10px;border:none;cursor:pointer}
+button:hover{transform:scale(1.1)}
+#rock{background:#ff6b6b}#paper{background:#4ecdc4}#scissors{background:#ffe66d}
+#result{font-size:24px;margin:20px;font-weight:bold}
+#score{font-size:20px}
+</style>
 </head>
 <body>
-  <h1>Rock Paper Scissors - MusaDev</h1>
-  <p>Open Console (F12) to play!</p>
-  <script src="script.js"></script>
+<h1>🔥 MusaDev RPS CHAMPION 🔥</h1>
+<button id="rock">🪨 Rock</button>
+<button id="paper">📄 Paper</button>
+<button id="scissors">✂️ Scissors</button>
+<div id="result">Choose your weapon!</div>
+<div id="score">You: 0 | Computer: 0</div>
+<script src="script.js"></script>
 </body>
 </html>
